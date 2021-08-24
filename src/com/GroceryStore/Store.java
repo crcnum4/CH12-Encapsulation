@@ -30,7 +30,7 @@ public class Store {
     // TODO: Friut version
     public void addToInventory() {
         Fruit fruit = new Fruit();
-        addToInventory();
+        addToInventory(fruit);
     };
 
 }
