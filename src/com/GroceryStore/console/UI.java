@@ -31,6 +31,7 @@ public class UI {
         do {
             System.out.println(prompt);
             String input = scanner.next();
+            // TODO: catch the below in case of error and prevent application from crashing
             option = Integer.parseInt(input);
         } while (option < min || option > max);
         return option;
